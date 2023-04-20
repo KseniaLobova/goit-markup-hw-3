@@ -197,6 +197,7 @@ img {
 /* section 4 our team */
 .section-team {
   padding: 120px 0;
+  background-color: var(--text-footer);
 }
 .team-list {
   display: flex;
@@ -210,9 +211,6 @@ img {
 .team-name {
   padding: 32px 16px;
   text-align: center;
-}
-.team {
-  background-color: var(--text-footer);
 }
 
 /* footer */
@@ -279,7 +277,6 @@ img {
 .list-projects {
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 120px;
 }
 .list-item {
   width: calc((100% - 48px) / 3);
